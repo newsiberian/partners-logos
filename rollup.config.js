@@ -16,6 +16,7 @@ export default {
     sberbank: 'src/Sberbank.js',
     scCrystal: 'src/SCCrystal.js',
     solechnyjGorod: 'src/SolechnyjGorod.js',
+    streetMedia: 'src/StreetMedia.js',
     theAquarelle: 'src/TheAquarelle.js',
     tomskjenergosbyt: 'src/Tomskjenergosbyt.js',
   },
