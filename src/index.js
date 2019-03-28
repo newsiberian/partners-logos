@@ -1,4 +1,4 @@
-export { default as ASCLogo } from './ASC';
+export { default as CRULogo } from './CRU';
 export { default as FiestaLogo } from './Fiesta';
 export { default as FPGLogo } from './FPG';
 export { default as GreenProLogo } from './GreenPro';
@@ -8,7 +8,7 @@ export { default as NetPointLogo } from './NetPoint';
 export { default as RiaTomskLogo } from './RiaTomsk';
 export { default as SberbankLogo } from './Sberbank';
 export { default as ScCrystalLogo } from './SCCrystal';
-export { default as SolechnyjGorodLogo } from './SolechnyjGorod';
+export { default as SolnechnyjGorodLogo } from './SolnechnyjGorod';
 export { default as StreetMediaLogo } from './StreetMedia';
 export { default as TheAquarelleLogo } from './TheAquarelle';
 export { default as TomskjenergosbytLogo } from './Tomskjenergosbyt';
