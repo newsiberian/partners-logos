@@ -1,6 +1,13 @@
-import ASCLogo from './ASC';
-import FPGLogo from './FPG';
-import NetPointLogo from './NetPoint';
-import ScCrystalLogo from './SCCrystal';
-
-export { ASCLogo, FPGLogo, NetPointLogo, ScCrystalLogo };
+export { default as ASCLogo } from './ASC';
+export { default as FiestaLogo } from './Fiesta';
+export { default as FPGLogo } from './FPG';
+export { default as GreenProLogo } from './GreenPro';
+export { default as KinomaxLogo } from './Kinomax';
+export { default as LunaPrintLogo } from './LunaPrint';
+export { default as NetPointLogo } from './NetPoint';
+export { default as RiaTomskLogo } from './RiaTomsk';
+export { default as SberbankLogo } from './Sberbank';
+export { default as ScCrystalLogo } from './SCCrystal';
+export { default as SolechnyjGorodLogo } from './SolechnyjGorod';
+export { default as TheAquarelleLogo } from './TheAquarelle';
+export { default as TomskjenergosbytLogo } from './Tomskjenergosbyt';
