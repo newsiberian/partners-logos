@@ -12,6 +12,7 @@ export default {
     KinomaxLogo: 'src/Kinomax.js',
     LunaPrintLogo: 'src/LunaPrint.js',
     NetPointLogo: 'src/NetPoint.js',
+    OtkryvajaGorizontyLogo: 'src/OtkryvajaGorizonty.js',
     RiaTomskLogo: 'src/RiaTomsk.js',
     SberbankLogo: 'src/Sberbank.js',
     ScCrystalLogo: 'src/SCCrystal.js',

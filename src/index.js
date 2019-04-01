@@ -5,6 +5,7 @@ export { default as GreenProLogo } from './GreenPro';
 export { default as KinomaxLogo } from './Kinomax';
 export { default as LunaPrintLogo } from './LunaPrint';
 export { default as NetPointLogo } from './NetPoint';
+export { default as OtkryvajaGorizontyLogo } from './OtkryvajaGorizonty';
 export { default as RiaTomskLogo } from './RiaTomsk';
 export { default as SberbankLogo } from './Sberbank';
 export { default as ScCrystalLogo } from './SCCrystal';
