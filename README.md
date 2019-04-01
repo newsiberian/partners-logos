@@ -17,6 +17,7 @@
 |RiaTomskLogo|Региональное информационное агентство «Томск», г. Томск|
 |SberbankLogo|ПАО Сбербанк, г. Томск|
 |ScCrystalLogo|Спортивный Комплекс «Кристалл», г. Томск|
+|SmileClinicLogo|Сеть стоматологических клиник «Smile Clinic Professional», г. Томск|
 |SolnechnyjGorodLogo|Детский благотворительный фонд «Солнечный город», г. Новосибирск|
 |StreetMediaLogo|ООО «Стрит-Медиа», г. Томск|
 |TheAquarelleLogo|Фотостудия «Акварель», г. Томск|

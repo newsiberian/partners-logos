@@ -9,6 +9,7 @@ export { default as OtkryvajaGorizontyLogo } from './OtkryvajaGorizonty';
 export { default as RiaTomskLogo } from './RiaTomsk';
 export { default as SberbankLogo } from './Sberbank';
 export { default as ScCrystalLogo } from './SCCrystal';
+export { default as SmileClimicLogo } from './SmileClinic';
 export { default as SolnechnyjGorodLogo } from './SolnechnyjGorod';
 export { default as StreetMediaLogo } from './StreetMedia';
 export { default as TheAquarelleLogo } from './TheAquarelle';

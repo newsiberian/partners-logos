@@ -16,6 +16,7 @@ export default {
     RiaTomskLogo: 'src/RiaTomsk.js',
     SberbankLogo: 'src/Sberbank.js',
     ScCrystalLogo: 'src/SCCrystal.js',
+    SmileClinicLogo: 'src/SmileClinic.js',
     SolnechnyjGorodLogo: 'src/SolnechnyjGorod.js',
     StreetMediaLogo: 'src/StreetMedia.js',
     TheAquarelleLogo: 'src/TheAquarelle.js',
