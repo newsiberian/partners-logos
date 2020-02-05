@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 /**
  * Luna print, г. Томск
  * @param props
  * @return {*}
  */
-export default props => (
+export default memo(props => (
   <svg
     width={699.991}
     height={570.573}
@@ -64,4 +64,4 @@ export default props => (
       />
     </g>
   </svg>
-);
+));

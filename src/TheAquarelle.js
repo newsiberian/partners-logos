@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { memo } from 'react';
 
-export default props => (
+export default memo(props => (
   <svg
     width={675.995}
     height={683.199}
@@ -61,4 +61,4 @@ export default props => (
       <circle className="the-aquarelle-fil0" cx={11911} cy={18142} r={60} stroke="#5c5c5c" strokeWidth={20.453} />
     </g>
   </svg>
-);
+));

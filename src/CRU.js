@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 /**
  * Центр Рекламных Услуг, г. Томск
  * @param props
  * @return {*}
  */
-export default props => (
+export default memo(props => (
   <svg
     width={188}
     height={168}
@@ -130,4 +130,4 @@ export default props => (
       />
     </g>
   </svg>
-);
+));

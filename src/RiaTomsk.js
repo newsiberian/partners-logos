@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { memo } from 'react';
 
-export default props => (
+export default memo(props => (
   <svg
     width={2720.103}
     height={414.958}
@@ -47,4 +47,4 @@ export default props => (
       />
     </g>
   </svg>
-);
+));

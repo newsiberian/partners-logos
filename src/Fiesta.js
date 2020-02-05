@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 /**
  * Рекламная группа «Фиеста»
  * @param props
  * @return {*}
  */
-export default props => {
+export default memo(props => {
   const { width: propWidth, height: propsHeight, ...rest } = props;
   const width = propWidth || 150;
   const height = propsHeight || 150;
@@ -18,4 +18,4 @@ export default props => {
       />
     </svg>
   );
-};
+});
