@@ -14,6 +14,7 @@ export default {
     LunaPrintLogo: 'src/LunaPrint.js',
     NetPointLogo: 'src/NetPoint.js',
     OtkryvajaGorizontyLogo: 'src/OtkryvajaGorizonty.js',
+    PekarJaLogo: 'src/PekarJa.js',
     PowerHlsClubLogo: 'src/PowerHlsClub.js',
     RiaTomskLogo: 'src/RiaTomsk.js',
     SberbankLogo: 'src/Sberbank.js',
