@@ -10,6 +10,7 @@ export default {
     GreenProLogo: 'src/GreenPro.js',
     index: 'src/index.js',
     KinomaxLogo: 'src/Kinomax.js',
+    KudesyLogo: 'src/Kudesy.js',
     LunaPrintLogo: 'src/LunaPrint.js',
     NetPointLogo: 'src/NetPoint.js',
     OtkryvajaGorizontyLogo: 'src/OtkryvajaGorizonty.js',
