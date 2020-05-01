@@ -2,6 +2,7 @@ export { default as CRULogo } from './CRU';
 export { default as FiestaLogo } from './Fiesta';
 export { default as FPGLogo } from './FPG';
 export { default as GreenProLogo } from './GreenPro';
+export { default as KFCLogo } from './KFC';
 export { default as KinomaxLogo } from './Kinomax';
 export { default as KudesyLogo } from './Kudesy';
 export { default as LunaPrintLogo } from './LunaPrint';

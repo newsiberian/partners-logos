@@ -9,6 +9,7 @@ export default {
     FPGLogo: 'src/FPG.js',
     GreenProLogo: 'src/GreenPro.js',
     index: 'src/index.js',
+    KFCLogo: 'src/KFC.js',
     KinomaxLogo: 'src/Kinomax.js',
     KudesyLogo: 'src/Kudesy.js',
     LunaPrintLogo: 'src/LunaPrint.js',
