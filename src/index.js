@@ -6,6 +6,7 @@ export { default as KFCLogo } from './KFC';
 export { default as KinomaxLogo } from './Kinomax';
 export { default as KudesyLogo } from './Kudesy';
 export { default as LunaPrintLogo } from './LunaPrint';
+export { default as MegaFonLogo } from './MegaFon';
 export { default as NetPointLogo } from './NetPoint';
 export { default as OtkryvajaGorizontyLogo } from './OtkryvajaGorizonty';
 export { default as PekarJaLogo } from './PekarJa';

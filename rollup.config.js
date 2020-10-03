@@ -13,6 +13,7 @@ export default {
     KinomaxLogo: 'src/Kinomax.js',
     KudesyLogo: 'src/Kudesy.js',
     LunaPrintLogo: 'src/LunaPrint.js',
+    MegaFonLogo: 'src/MegaFon.js',
     NetPointLogo: 'src/NetPoint.js',
     OtkryvajaGorizontyLogo: 'src/OtkryvajaGorizonty.js',
     PekarJaLogo: 'src/PekarJa.js',
