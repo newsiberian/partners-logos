@@ -1,6 +1,6 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
-export default memo(props => (
+export default React.memo((props) => (
   <svg width={141} height={110} viewBox="0 0 141 110" {...props}>
     <defs>
       <path

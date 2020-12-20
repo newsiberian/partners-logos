@@ -1,6 +1,6 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
-export default memo(function KFCLogo(props) {
+export default React.memo(function KFCLogo(props) {
   return (
     <svg height={310.299} viewBox="0 0 310 310.299" width={310} {...props}>
       <g fillRule="evenodd">

@@ -1,11 +1,11 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
 /**
  * ПАО Сбербанк
  * @param props
  * @return {*}
  */
-export default memo(props => (
+export default React.memo((props) => (
   <svg x={0} y={0} viewBox="0 0 242 61" xmlSpace="preserve" {...props}>
     <style>{'.sberbank-st0{fill:#1a9f29}'}</style>
     <path

@@ -8,6 +8,7 @@ export default {
     FiestaLogo: 'src/Fiesta.js',
     FPGLogo: 'src/FPG.js',
     GreenProLogo: 'src/GreenPro.js',
+    HraniteliDetsvaLogo: 'src/HraniteliDetsva.js',
     index: 'src/index.js',
     KFCLogo: 'src/KFC.js',
     KinomaxLogo: 'src/Kinomax.js',

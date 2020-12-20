@@ -1,11 +1,11 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
 /**
  * ООО «НетПоинт», г. Томск
  * @param props
  * @return {*}
  */
-export default memo(props => (
+export default React.memo((props) => (
   <svg viewBox="0 0 1693 669" xmlSpace="preserve" fillRule="evenodd" {...props}>
     <defs>
       <style type="text/css">{'.net-point-fil0{fill:#008bd0}.net-point-fil1{fill:#1b1918}'}</style>

@@ -1,11 +1,11 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
 /**
  * Фонд Президентских Грантов
  * @param props
  * @return {*}
  */
-export default memo(props => (
+export default React.memo((props) => (
   <svg x={0} y={0} viewBox="0 0 129.9 43.5" xmlSpace="preserve" {...props}>
     <path
       d="M39.6 6.7H21.3c-1.9 0-3.5 1.2-4.2 2.9L10 29.1C9.4 30.8 7.7 32 5.9 32h18.4c1.9 0 3.5-1.2 4.2-2.9l7.1-19.5c.5-1.8 2.2-2.9 4-2.9z"

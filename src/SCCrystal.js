@@ -1,11 +1,11 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
 /**
  * СК Кристалл, г. Томск
  * @param props
  * @return {*}
  */
-export default memo(props => (
+export default React.memo((props) => (
   <svg
     width={559.997}
     height={399.303}

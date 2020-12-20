@@ -1,11 +1,11 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
 /**
  * Рекламная группа «Фиеста»
  * @param props
  * @return {*}
  */
-export default memo(props => {
+export default React.memo((props) => {
   const { width: propWidth, height: propsHeight, ...rest } = props;
   const width = propWidth || 150;
   const height = propsHeight || 150;

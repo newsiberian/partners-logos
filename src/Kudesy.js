@@ -1,9 +1,9 @@
-import React, { memo } from 'react';
+import * as React from 'react';
 
 /**
  * Кудесы, кафе-кондитерская, г. Томск
  */
-export default memo(props => (
+export default React.memo((props) => (
   <svg
     width={612.801}
     height={291.01}

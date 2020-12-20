@@ -1,6 +1,6 @@
 {
   "name": "@mercuriya/partners-logos",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Mercuriya partners SVG logos",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
@@ -9,6 +9,7 @@
     "access": "public"
   },
   "private": false,
+  "sideEffects": false,
   "scripts": {
     "clean": "rimraf lib/*",
     "bundle": "rollup -c",
