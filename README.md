@@ -9,8 +9,11 @@
 |CRULogo|Центр Рекламных Услуг, г. Томск|
 |FiestaLogo|Рекламная группа «Фиеста», г. Томск|
 |FPGLogo|Фонд Президентских Грантов|
+|FrescoAgencyLogo|FRESCO AGENCY, digital-агенство, г. Томск|
+|GravityPointLogo|Музей начала наук «Точка гравитации», г. Томск|
 |GreenProLogo|Рекламное агентство полного цикла «Грин Про», г. Томск|
 |HraniteliDetsvaLogo|Фонд поддержки семьи и детей «Хранители детства», г. Москва|
+|JordanLogo|Батутный центр Jordan, г. Томск|
 |KFCLogo|KFC International Holdings Inc.|
 |KinomaxLogo|Киноцентр «Киномакс», г. Томск|
 |KudesyLogo|Кудесы, кафе-кондитерская, г. Томск|
