@@ -1,6 +1,6 @@
 {
   "name": "@mercuriya/partners-logos",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "description": "Mercuriya partners SVG logos",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
