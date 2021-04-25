@@ -1,8 +1,11 @@
 export { default as CRULogo } from './CRU';
 export { default as FiestaLogo } from './Fiesta';
 export { default as FPGLogo } from './FPG';
+export { default as FrescoAgencyLogo } from './FrescoAgency';
+export { default as GravityPointLogo } from './GravityPoint';
 export { default as GreenProLogo } from './GreenPro';
 export { default as HraniteliDetsvaLogo } from './HraniteliDetsva';
+export { default as JordanLogo } from './Jordan';
 export { default as KFCLogo } from './KFC';
 export { default as KinomaxLogo } from './Kinomax';
 export { default as KudesyLogo } from './Kudesy';
