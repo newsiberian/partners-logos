@@ -5,6 +5,7 @@ export default {
   input: {
     // for tree shaking purpose
     CRULogo: 'src/CRU.js',
+    DelovyeSvjaziLogo: 'src/DelovyeSvjazi.js',
     FiestaLogo: 'src/Fiesta.js',
     FPGLogo: 'src/FPG.js',
     FrescoAgencyLogo: 'src/FrescoAgency.js',
@@ -19,6 +20,7 @@ export default {
     LunaPrintLogo: 'src/LunaPrint.js',
     MegaFonLogo: 'src/MegaFon.js',
     NetPointLogo: 'src/NetPoint.js',
+    NovoHimLogo: 'src/NewHim.js',
     OtkryvajaGorizontyLogo: 'src/OtkryvajaGorizonty.js',
     PekarJaLogo: 'src/PekarJa.js',
     PowerHlsClubLogo: 'src/PowerHlsClub.js',

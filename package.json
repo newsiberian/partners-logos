@@ -1,6 +1,6 @@
 {
   "name": "@mercuriya/partners-logos",
-  "version": "0.12.5",
+  "version": "0.14.0",
   "description": "Mercuriya partners SVG logos",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
@@ -24,13 +24,13 @@
     "react": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.13.15",
-    "@babel/preset-env": "7.13.15",
-    "@babel/preset-react": "7.13.13",
-    "prettier": "2.2.1",
-    "react": "16.13.1",
+    "@babel/core": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
+    "prettier": "2.3.2",
+    "react": "17.0.2",
     "rimraf": "3.0.2",
-    "rollup": "2.45.2",
+    "rollup": "2.56.3",
     "rollup-plugin-babel": "4.4.0"
   },
   "prettier": {

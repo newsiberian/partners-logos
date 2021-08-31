@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default React.memo(function KFCLogo(props) {
+function KFCLogo(props) {
   return (
     <svg height={310.299} viewBox="0 0 310 310.299" width={310} {...props}>
       <g fillRule="evenodd">
@@ -46,4 +46,5 @@ export default React.memo(function KFCLogo(props) {
       </g>
     </svg>
   );
-});
+}
+export default React.memo(KFCLogo);

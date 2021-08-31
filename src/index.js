@@ -1,4 +1,5 @@
 export { default as CRULogo } from './CRU';
+export { default as DelovyeSvjaziLogo } from './DelovyeSvjazi';
 export { default as FiestaLogo } from './Fiesta';
 export { default as FPGLogo } from './FPG';
 export { default as FrescoAgencyLogo } from './FrescoAgency';
@@ -12,6 +13,7 @@ export { default as KudesyLogo } from './Kudesy';
 export { default as LunaPrintLogo } from './LunaPrint';
 export { default as MegaFonLogo } from './MegaFon';
 export { default as NetPointLogo } from './NetPoint';
+export { default as NovoHimLogo } from './NewHim';
 export { default as OtkryvajaGorizontyLogo } from './OtkryvajaGorizonty';
 export { default as PekarJaLogo } from './PekarJa';
 export { default as PowerHlsClubLogo } from './PowerHlsClub';
