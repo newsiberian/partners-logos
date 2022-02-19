@@ -4,6 +4,7 @@ export default {
   external: ['react'],
   input: {
     // for tree shaking purpose
+    Bitrix24Logo: 'src/Bitrix24.js',
     CRULogo: 'src/CRU.js',
     DelovyeSvjaziLogo: 'src/DelovyeSvjazi.js',
     FiestaLogo: 'src/Fiesta.js',

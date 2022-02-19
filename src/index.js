@@ -1,3 +1,4 @@
+export { default as Bitrix24 } from './Bitrix24';
 export { default as CRULogo } from './CRU';
 export { default as DelovyeSvjaziLogo } from './DelovyeSvjazi';
 export { default as FiestaLogo } from './Fiesta';
