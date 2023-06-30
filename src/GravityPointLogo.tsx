@@ -1,9 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Музей начала наук «Точка гравитации»
  */
-export default React.memo((props) => {
+export const GravityPointLogo = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg
       id="gravity-point___1"
@@ -166,4 +166,6 @@ export default React.memo((props) => {
       />
     </svg>
   );
-});
+};
+
+export default GravityPointLogo;

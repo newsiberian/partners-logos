@@ -1,8 +1,8 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-function KFCLogo(props) {
+export const KFCLogo = (props: SVGProps<SVGSVGElement>) => {
   return (
-    <svg height={310.299} viewBox="0 0 310 310.299" width={310} {...props}>
+    <svg width={310} height={310.299} viewBox="0 0 310 310.299" {...props}>
       <g fillRule="evenodd">
         <path
           d="M15.56 12.26a5.15 5.15 0 00-3.47 4.84c0 1.04 15.71 199.91 15.86 200.62l.09.45h51.41V11.87l-31.4.01c-29.98 0-31.46.02-32.49.38M230.7 115.02v103.15H282.06l.11-.86c.65-5.08 15.9-200.82 15.7-201.52a5.38 5.38 0 00-3.86-3.7c-.71-.15-10.42-.22-32.17-.22H230.7z"
@@ -46,5 +46,6 @@ function KFCLogo(props) {
       </g>
     </svg>
   );
-}
-export default React.memo(KFCLogo);
+};
+
+export default KFCLogo;

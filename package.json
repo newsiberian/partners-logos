@@ -1,9 +1,12 @@
 {
   "name": "@mercuriya/partners-logos",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Mercuriya partners SVG logos",
-  "main": "lib/cjs/index.js",
-  "module": "lib/esm/index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -11,27 +14,25 @@
   "private": false,
   "sideEffects": false,
   "scripts": {
-    "clean": "rimraf lib/*",
-    "bundle": "rollup -c",
+    "clean": "rimraf dist/*",
+    "build": "tsc --build",
+    "bundle": "yarn build",
     "prebundle": "yarn clean",
     "prepublishOnly": "yarn clean && yarn bundle"
   },
   "files": [
-    "lib/cjs/*",
-    "lib/esm/*"
+    "dist/*"
   ],
   "peerDependencies": {
     "react": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.17.5",
-    "@babel/preset-env": "7.16.11",
-    "@babel/preset-react": "7.16.7",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
     "prettier": "2.5.1",
     "react": "17.0.2",
     "rimraf": "3.0.2",
-    "rollup": "2.67.3",
-    "rollup-plugin-babel": "4.4.0"
+    "typescript": "5.1.6"
   },
   "prettier": {
     "semi": true,

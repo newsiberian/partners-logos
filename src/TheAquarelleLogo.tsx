@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => (
+export const TheAquarelleLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={675.995}
     height={683.199}
@@ -61,4 +61,6 @@ export default React.memo((props) => (
       <circle className="the-aquarelle-fil0" cx={11911} cy={18142} r={60} stroke="#5c5c5c" strokeWidth={20.453} />
     </g>
   </svg>
-));
+);
+
+export default TheAquarelleLogo;

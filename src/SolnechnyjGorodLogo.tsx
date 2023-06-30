@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => (
+export const SolnechnyjGorodLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={849.283}
     height={600.48}
@@ -68,4 +68,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default SolnechnyjGorodLogo;

@@ -1,9 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * FRESCO AGENCY, digital-агенство
  */
-export default React.memo((props) => {
+export const FrescoAgencyLogo = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg width={166} height={16} viewBox="0 0 166 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <g clipPath="url(#fresco-logo__clip0)">
@@ -25,4 +25,6 @@ export default React.memo((props) => {
       </defs>
     </svg>
   );
-});
+};
+
+export default FrescoAgencyLogo;

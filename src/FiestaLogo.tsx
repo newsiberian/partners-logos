@@ -1,11 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Рекламная группа «Фиеста»
- * @param props
- * @return {*}
  */
-export default React.memo((props) => {
+export const FiestaLogo = (props: SVGProps<SVGSVGElement>) => {
   const { width: propWidth, height: propsHeight, ...rest } = props;
   const width = propWidth || 150;
   const height = propsHeight || 150;
@@ -18,4 +16,6 @@ export default React.memo((props) => {
       />
     </svg>
   );
-});
+};
+
+export default FiestaLogo;

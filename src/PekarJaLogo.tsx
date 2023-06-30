@@ -1,9 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * ПекарьЯ, кафе-пекарня, г. Томск
  */
-export default React.memo((props) => (
+export const PekarJaLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={131.724}
     height={51.345}
@@ -50,4 +50,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default PekarJaLogo;

@@ -1,13 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Новая Химия
- *
- * @param props
- * @returns {JSX.Element}
- * @constructor
  */
-function NewHim(props) {
+export const NovoHimLogo = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -49,6 +45,6 @@ function NewHim(props) {
       </g>
     </svg>
   );
-}
+};
 
-export default React.memo(NewHim);
+export default NovoHimLogo;

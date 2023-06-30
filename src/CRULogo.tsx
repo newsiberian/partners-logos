@@ -1,11 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Центр Рекламных Услуг, г. Томск
- * @param props
- * @return {*}
  */
-export default React.memo((props) => (
+export const CRULogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={188}
     height={168}
@@ -130,4 +128,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default CRULogo;

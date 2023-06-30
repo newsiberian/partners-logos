@@ -1,9 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Кудесы, кафе-кондитерская, г. Томск
  */
-export default React.memo((props) => (
+export const KudesyLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={612.801}
     height={291.01}
@@ -21,4 +21,6 @@ export default React.memo((props) => (
       fillRule="nonzero"
     />
   </svg>
-));
+);
+
+export default KudesyLogo;

@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => (
+export const RiaTomskLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={2720.103}
     height={414.958}
@@ -47,4 +47,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default RiaTomskLogo;

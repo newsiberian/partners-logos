@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => (
+export const SmileClinicLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg width={141} height={110} viewBox="0 0 141 110" {...props}>
     <defs>
       <path
@@ -59,4 +59,6 @@ export default React.memo((props) => (
       </g>
     </g>
   </svg>
-));
+);
+
+export default SmileClinicLogo;

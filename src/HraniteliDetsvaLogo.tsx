@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => {
+export const HraniteliDetsvaLogo = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg viewBox="0 0 174 72" {...props}>
       <path
@@ -151,4 +151,6 @@ export default React.memo((props) => {
       />
     </svg>
   );
-});
+};
+
+export default HraniteliDetsvaLogo;

@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => (
+export const KinomaxLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={521.545}
     height={134.58}
@@ -30,4 +30,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default KinomaxLogo;

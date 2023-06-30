@@ -1,10 +1,10 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Битрикс24
  * ООО «1С-Битрикс»
  */
-export default React.memo((props) => (
+export const Bitrix24Logo = (props: SVGProps<SVGSVGElement>) => (
   <svg width={195} height={35} xmlns="http://www.w3.org/2000/svg" {...props}>
     <g fill="none">
       <path
@@ -23,4 +23,6 @@ export default React.memo((props) => (
       <path d="M190.7 10.3h-4.9V5.4h-1.3v6.2h6.2v-1.3Z" fill="#005893" />
     </g>
   </svg>
-));
+);
+
+export default Bitrix24Logo;

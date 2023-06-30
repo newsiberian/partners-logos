@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => (
+export const PowerHlsClubLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={639.602}
     height={528.771}
@@ -445,4 +445,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default PowerHlsClubLogo;

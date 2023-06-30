@@ -1,11 +1,11 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Luna print, г. Томск
  * @param props
  * @return {*}
  */
-export default React.memo((props) => (
+export const LunaPrintLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={699.991}
     height={570.573}
@@ -64,4 +64,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default LunaPrintLogo;

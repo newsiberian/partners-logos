@@ -1,11 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * ООО «НетПоинт», г. Томск
- * @param props
- * @return {*}
  */
-export default React.memo((props) => (
+export const NetPointLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.57 96.26" {...props}>
     <path
       fill="#0043dc"
@@ -39,4 +37,6 @@ export default React.memo((props) => (
     <ellipse fill="#0043dc" cx={8.54} cy={56.66} rx={1.97} ry={2.31} />
     <ellipse fill="#0043dc" cx={1.66} cy={61.31} rx={0.97} ry={1.14} />
   </svg>
-));
+);
+
+export default NetPointLogo;

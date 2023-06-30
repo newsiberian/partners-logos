@@ -1,13 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * ООО «Деловые связи», г. Томск
- *
- * @param props
- * @returns {JSX.Element}
- * @constructor
  */
-function DelovyeSvjazi(props) {
+export const DelovyeSvjaziLogo = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg width={765} height={766} viewBox="0 0 765 766" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>{'Group 5'}</title>
@@ -41,6 +37,6 @@ function DelovyeSvjazi(props) {
       </g>
     </svg>
   );
-}
+};
 
-export default React.memo(DelovyeSvjazi);
+export default DelovyeSvjaziLogo;

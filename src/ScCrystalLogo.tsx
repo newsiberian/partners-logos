@@ -1,11 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * СК Кристалл, г. Томск
- * @param props
- * @return {*}
  */
-export default React.memo((props) => (
+export const ScCrystalLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={559.997}
     height={399.303}
@@ -111,4 +109,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default ScCrystalLogo;

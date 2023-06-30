@@ -1,6 +1,6 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
-export default React.memo((props) => (
+export const GreenProLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={1148.795}
     height={252.613}
@@ -55,4 +55,6 @@ export default React.memo((props) => (
       />
     </g>
   </svg>
-));
+);
+
+export default GreenProLogo;

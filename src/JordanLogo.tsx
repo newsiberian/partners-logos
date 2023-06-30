@@ -1,9 +1,9 @@
-import * as React from 'react';
+import type { SVGProps } from 'react';
 
 /**
  * Батутный центр Jordan
  */
-export default React.memo((props) => {
+export const JordanLogo = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={432.038} height="30.68mm" viewBox="0 0 324.04 86.95" {...props}>
       <path
@@ -13,4 +13,6 @@ export default React.memo((props) => {
       />
     </svg>
   );
-});
+};
+
+export default JordanLogo;
